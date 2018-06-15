@@ -11,6 +11,6 @@ find_package(Qt5Network REQUIRED)
 find_package(Qt5Sql REQUIRED)
 find_package(Qt5PrintSupport REQUIRED)
 find_package(Qt5Xml REQUIRED)
-set(SOURCE_FILES main.cpp main.cpp)
+set(SOURCE_FILES main.cpp main.cpp Raid5_controller/Existence_controller.cpp Raid5_controller/Existence_controller.h Raid5_controller/file_controller.cpp Raid5_controller/file_controller.h Raid5_controller/GOD_controller.cpp Raid5_controller/GOD_controller.h)
 add_executable(datos.RAID.c- ${SOURCE_FILES} main.cpp main.cpp)
 
